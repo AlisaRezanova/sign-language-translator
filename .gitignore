@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data & models (большие файлы не коммитим)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.onnx
+*.ckpt
+models/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
